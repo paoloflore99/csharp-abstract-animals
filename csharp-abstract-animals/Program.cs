@@ -13,9 +13,9 @@
             foreach (var caratteristiche in Animals)
             {
                 caratteristiche.Dormi();
+                caratteristiche.Verso();
+                caratteristiche.Mangia();
             }
-
-            
         }
     }
 }
