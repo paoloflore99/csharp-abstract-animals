@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+
+            //------------------ inizio pezzo 1 --------------------------------
             List<IMetodianimali> Animals = new List<IMetodianimali>();
             Animals.Add(new Delfino());
             Animals.Add(new Aquila());
@@ -16,6 +18,12 @@
                 caratteristiche.Verso();
                 caratteristiche.Mangia();
             }
+            //------------------ fine pezzo 1 -----------------------------------
+
+
+
+
+            //------------------ inizio pezzo 2 ---------------------------------
         }
     }
 }
