@@ -11,6 +11,7 @@
             Animals.Add(new Aquila());
             Animals.Add(new Passerotto());
             Animals.Add(new Cane());
+            
 
             foreach (var caratteristiche in Animals)
             {
@@ -18,12 +19,27 @@
                 caratteristiche.Verso();
                 caratteristiche.Mangia();
             }
-            //------------------ fine pezzo 1 -----------------------------------
-
-
-
 
             //------------------ inizio pezzo 2 ---------------------------------
+            List<IVolano> AnimaliVolano = new List<IVolano>();
+            AnimaliVolano.Add(new Aquila());
+            AnimaliVolano.Add(new Passerotto());
+            foreach (var volano in AnimaliVolano)
+            {
+                volano.Vola();
+            }
+
+            List<INuotano> AnimaliNuotano = new List<INuotano>();
+            AnimaliNuotano.Add(new Delfino());
+            foreach(var nuotano in AnimaliNuotano)
+            {
+                nuotano.Nuota();
+            }
+
+
+
+
+
         }
     }
 }

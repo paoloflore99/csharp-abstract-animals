@@ -24,7 +24,7 @@ namespace csharp_abstract_animals
         }
         public void Nuota()
         {
-            Console.WriteLine("to nuotando!!!");
+            Console.WriteLine("sto nuotando!!!");
         }
 
     }
