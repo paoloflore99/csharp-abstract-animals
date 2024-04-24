@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Cane : Animale
+    internal class Cane : Animale , IMetodianimali
     {
+        public void Dormi()
+        {
+
+        }
+
+        public void Verso()
+        {
+
+        }
+
+        public void Mangia()
+        {
+
+        }
     }
 }
