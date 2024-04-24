@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Aquila : Animale , IMetodianimali
+    public class Aquila : Animale , IMetodianimali
     {
         public void Dormi()
         {
-            Console.WriteLine("Le aquile di solito dormono posate su un ramo alto o su una scogliera, piegando una zampa e nascondendo il becco sotto le ali.");
+            Console.WriteLine("Aquila ZzZ");
         }
 
         public void Verso()

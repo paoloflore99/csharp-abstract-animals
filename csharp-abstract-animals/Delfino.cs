@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Delfino :Animale , IMetodianimali
+    public class Delfino :Animale , IMetodianimali
     {
         public void Dormi()
         {
-            Console.WriteLine("Il delfino dorme emisfero cerebrale alla volta.");
+            Console.WriteLine("Delfino ZzZ");
         }
 
         public void Verso()

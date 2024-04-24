@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    internal class Passerotto : Animale, IMetodianimali
+    public class Passerotto : Animale, IMetodianimali
     {
         public void Dormi()
         {
-            Console.WriteLine("I passeri giovani dormono in nidi protetti o tra i cespugli durante la notte.");
+            Console.WriteLine("Passerotto ZzZ");
         }
 
         public void Verso()
