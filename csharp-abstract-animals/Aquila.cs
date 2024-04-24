@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Aquila : Animale , IMetodianimali
+    public class Aquila : Animale , IMetodianimali , IVolano
     {
         public void Dormi()
         {
@@ -22,5 +22,12 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Le aquile si nutrono principalmente di piccoli mammiferi, uccelli, pesci e occasionalmente di carogne.");
         }
+
+
+        public void Vola()
+        {
+            Console.WriteLine("Sto volando!!!");
+        }
     }
+    
 }

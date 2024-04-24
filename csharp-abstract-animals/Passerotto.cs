@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Passerotto : Animale, IMetodianimali
+    public class Passerotto : Animale, IMetodianimali , IVolano
     {
         public void Dormi()
         {
@@ -22,5 +22,11 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("semi e insetti");
         }
+
+        public void Vola()
+        {
+            Console.WriteLine("Sto volando!!!");
+        }
+
     }
 }

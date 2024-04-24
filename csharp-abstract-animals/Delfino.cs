@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Delfino :Animale , IMetodianimali
+    public class Delfino :Animale , IMetodianimali , INuotano
     {
         public void Dormi()
         {
@@ -21,6 +21,10 @@ namespace csharp_abstract_animals
         public void Mangia()
         {
             Console.WriteLine("Il delfino si nutre principalmente di pesci, calamari e altri piccoli organismi marini.");
+        }
+        public void Nuota()
+        {
+            Console.WriteLine("to nuotando!!!");
         }
 
     }
