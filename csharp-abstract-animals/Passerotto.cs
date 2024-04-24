@@ -10,17 +10,17 @@ namespace csharp_abstract_animals
     {
         public void Dormi()
         {
-
+            Console.WriteLine("I passeri giovani dormono in nidi protetti o tra i cespugli durante la notte.");
         }
 
         public void Verso()
         {
-
+            Console.WriteLine("cip-cip");
         }
 
         public void Mangia()
         {
-
+            Console.WriteLine("semi e insetti");
         }
     }
 }

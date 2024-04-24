@@ -10,17 +10,17 @@ namespace csharp_abstract_animals
     {
         public void Dormi()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Le aquile di solito dormono posate su un ramo alto o su una scogliera, piegando una zampa e nascondendo il becco sotto le ali.");
         }
 
         public void Verso()
         {
-            Console.WriteLine("");
+            Console.WriteLine("grido");
         }
 
         public void Mangia()
         {
-            Console.WriteLine("");
+            Console.WriteLine("Le aquile si nutrono principalmente di piccoli mammiferi, uccelli, pesci e occasionalmente di carogne.");
         }
     }
 }
