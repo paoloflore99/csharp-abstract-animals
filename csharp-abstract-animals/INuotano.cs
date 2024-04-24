@@ -8,6 +8,6 @@ namespace csharp_abstract_animals
 {
     public interface INuotano
     {
-        void Nuota();
+        void FaiNuotare();
     }
 }

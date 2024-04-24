@@ -9,6 +9,6 @@ namespace csharp_abstract_animals
 {
     public interface IVolano
     {
-        void Vola();
+        void FaiVolare();
     }
 }

@@ -22,7 +22,8 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Il delfino si nutre principalmente di pesci, calamari e altri piccoli organismi marini.");
         }
-        public void Nuota()
+        //------------------ inizio pezzo 2 ---------------------------------
+        public void FaiNuotare()
         {
             Console.WriteLine("sto nuotando!!!");
         }

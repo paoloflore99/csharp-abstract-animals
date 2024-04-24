@@ -26,14 +26,14 @@
             AnimaliVolano.Add(new Passerotto());
             foreach (var volano in AnimaliVolano)
             {
-                volano.Vola();
+                volano.FaiVolare();
             }
 
             List<INuotano> AnimaliNuotano = new List<INuotano>();
             AnimaliNuotano.Add(new Delfino());
             foreach(var nuotano in AnimaliNuotano)
             {
-                nuotano.Nuota();
+                nuotano.FaiNuotare();
             }
 
 

@@ -23,7 +23,10 @@ namespace csharp_abstract_animals
             Console.WriteLine("semi e insetti");
         }
 
-        public void Vola()
+
+        //------------------ inizio pezzo 2 ---------------------------------
+
+        public void FaiVolare()
         {
             Console.WriteLine("Sto volando!!!");
         }
